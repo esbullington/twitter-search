@@ -1,0 +1,47 @@
+<html>
+<head>
+
+<script type="text/javascript" src="js/jquery.min.js"> </script>
+<script type="text/javascript" src="js/site.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/twitter.css" />
+</head>
+<body>
+
+<h1>Twitter Search</h1>
+<h2>Tweets from Around the <span id="message"></span></h2>
+<div>A coffeescript jquery plug-in in progress</div>
+<br>
+
+<fieldset id="query-block">
+  <legend>Tweet Search</legend>
+  <ol>
+    <li>
+      <label for="twitter-string">Search string</label>
+      <input type="text" id="twitter-string" name="twitter-string" />
+      <label for="twitter-user">Is user?</label>
+      <input type="checkbox" id="twitter-user" value="user" />
+    </li>
+    <li>
+      <label for="twitter-number">Number of tweets</label>
+      <input type="text" name="twitter-number" id="twitter-number" value="1"/>
+      <div class="inc button">+</div><div class="dec button">-</div>
+    </li>
+    <li>
+      <input type="submit" value="Get Tweets!" id="tweet-json" />
+    </li>
+    <li>
+      <input type="button" value="Clear Tweets" id="clear-tweets" />
+    </li>
+   </ol>
+</fieldset>
+
+
+<div id="tweet-container" class="event">
+</div>
+
+
+
+
+</body>
+</html>

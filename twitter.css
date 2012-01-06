@@ -1,0 +1,22 @@
+dl.event
+{
+	margin: 2em 0;
+	padding: 0;
+	font-family: georgia, times, serif;
+}
+
+.event dt
+{
+	position: relative;
+	left: 0;
+	top: 1.1em;
+	width: 5em;
+	font-weight: bold;
+}
+
+.event dd
+{
+	border-left: 1px solid #000;
+	margin: 0 0 0 6em;
+	padding: 0 0 .5em .5em;
+}

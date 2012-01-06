@@ -1,0 +1,92 @@
+/*search styling*/
+
+fieldset {
+  width: 500px;
+  margin-bottom: 10px;
+}
+legend {
+  padding: 0 2px;
+  font-weight: bold;
+}
+label {
+  display: inline-block;
+  line-height: 1.8;
+  vertical-align: top;
+  width: 120px; /* Width of labels */
+}
+fieldset ol {
+  margin: 0;
+  padding: 0;
+}
+fieldset li {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+}
+
+#twitter-user {
+  position: relative;
+  top: 3px;
+  left: -60px;    
+}
+
+.button { 
+  text-indent: -9999px; 
+  cursor: pointer; 
+  width: 17px; 
+  height: 17px; 
+  float: right; 
+  position:relative;
+  bottom: -5px;
+  right: 105px;
+  text-align: center; 
+  background: url(../images/buttons.png) no-repeat;
+}
+
+.dec { 
+  background-position: 0 -17px; 
+}
+
+#tweet-json {
+  cursor: pointer; 
+  position:relative;
+  top: 30px;
+  clear:both;
+}
+
+#clear-tweets {
+  cursor: pointer; 
+  position:relative;
+  left: 110px;
+  top: -5px;
+}
+
+/*results styling*/
+
+  dl {
+    border: 3px double #ccc;
+    padding: 5px;
+  }
+  dt {
+    float: left;
+    clear: left;
+    width: 150px;
+    text-align: right;
+    font-weight: bold;
+    color: green;
+  }
+  dt:after {
+    content: ": ";
+  }
+  dd {
+    margin: 0 0 0 160px;
+    padding: 0 0 0 0;
+  }
+  
+  
